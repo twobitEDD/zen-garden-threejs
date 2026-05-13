@@ -1,0 +1,66 @@
+{
+  "name": "@twobitedd/zen-garden-threejs",
+  "version": "0.1.0",
+  "description": "Three.js / React Three Fiber zen garden building blocks (thin re-export layer over zen-sand-rake until split).",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twobitEDD/zen-garden-threejs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "three",
+    "react-three-fiber",
+    "r3f",
+    "webgl",
+    "zen",
+    "garden"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "check": "npm run build"
+  },
+  "dependencies": {
+    "@twobitedd/zen-sand-rake": "file:../packages/zen-sand-rake"
+  },
+  "peerDependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0",
+    "three": "^0.180.0 || ^0.181.0 || ^0.182.0 || ^0.183.0"
+  },
+  "devDependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@types/react": "^19.2.4",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.183.1",
+    "typescript": "^5.8.3"
+  }
+}

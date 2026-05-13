@@ -7,17 +7,33 @@
  */
 export {
   ClassicInteractiveSand,
+  ClassicSandRakeDecals,
+  CLASSIC_SAND_DISK_SHADER_VISUAL_TRAY_LOCAL_Z,
+  CLASSIC_TRAY_TO_WORLD_Y_UP,
+  CLASSIC_ZEN_GARDEN_DISK_RADIUS,
+  createRakeRingDecalTexture,
+  DEFAULT_RAKE_PATH_DEBUG_LOCAL_STORAGE_KEYS,
+  drawZenRakePathDebugOverlay2d,
+  getClassicZenGardenLayout,
   ZenRakePathDebugOverlay,
   ZenRakePathDebugWorldQuad,
-  DEFAULT_RAKE_PATH_DEBUG_LOCAL_STORAGE_KEYS,
   ZEN_NAV_DEBUG_PIXEL_MUL,
-  drawZenRakePathDebugOverlay2d,
   ZEN_RAKE_PATH_DEBUG_TRAIL_MAX_POINTS,
+  ZEN_SCENE_CREAM_DISK_TRAY_LOCAL_Z,
 } from "@twobitedd/zen-sand-rake";
 export type {
   ClassicInteractiveSandProps,
+  ClassicRakePatternKey,
+  ClassicZenGardenLayoutOpts,
+  ClassicZenPropAnchor,
   ZenRakePathDebugOverlayProps,
   ZenRakePathDebugRasterInput,
   ZenRakePathDebugWorldQuadProps,
+  ZenRakePilotFinishReason,
   ZenUv,
 } from "@twobitedd/zen-sand-rake";
+export {
+  zenGardenDemoCameraConfig,
+  ZenGardenSandStage,
+} from "./playground";
+export type { ZenGardenSandStageProps } from "./playground";

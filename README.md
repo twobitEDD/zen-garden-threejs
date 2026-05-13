@@ -12,7 +12,9 @@ This package currently **re-exports** selected APIs from [`@twobitedd/zen-sand-r
 npm install @twobitedd/zen-garden-threejs
 ```
 
-Peer dependencies (install in your app; versions should match your R3F stack):
+`@twobitedd/zen-sand-rake` is installed automatically as a normal dependency (single install pulls the sand stack).
+
+Peer dependencies (must be installed in your app; keep versions aligned with your R3F stack):
 
 - `react`, `react-dom`
 - `three`
@@ -26,8 +28,6 @@ From this package root (after `npm install`):
 ```bash
 npm run build
 ```
-
-Ensure `@twobitedd/zen-sand-rake` is built when using the `file:` dependency (monorepo): `npm --prefix ../packages/zen-sand-rake run build`.
 
 ## Repository
 

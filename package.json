@@ -1,6 +1,6 @@
 {
   "name": "@twobitedd/zen-garden-threejs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Three.js / React Three Fiber zen garden building blocks (thin re-export layer over zen-sand-rake until split).",
   "license": "MIT",
   "type": "module",
@@ -18,6 +18,7 @@
     "dist",
     "LICENSE",
     "README.md",
+    "CHEATSHEET.md",
     "CHANGELOG.md",
     "RELEASING.md"
   ],

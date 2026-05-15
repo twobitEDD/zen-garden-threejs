@@ -2,6 +2,17 @@
 
 All notable changes to `@twobitedd/zen-garden-threejs` are documented here. This project re-exports `@twobitedd/zen-sand-rake`; feature work for the sand stack lives in that package.
 
+## 0.2.1 — 2026-05-14
+
+### Changed
+
+- Demo retail defaults now open on sacred geometry idle motion with layout seed 7, pedestal grooves suppressed, pedestal debug mesh hidden, developer QA collapsed, and HUD/world path debug tray-Y presentation mirrored.
+- Demo sacred geometry presets auto-cycle every 60 seconds while sacred ambient mode is active, refreshing the rake path on each preset change.
+
+### Added
+
+- Root `CHEATSHEET.md` with copy-friendly integration notes for embedding the garden as a game background.
+
 ## 0.2.0 — 2026-05-13
 
 ### Added

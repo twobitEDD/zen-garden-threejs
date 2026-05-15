@@ -46,6 +46,7 @@ const NAV_STEERING_PRESET_UI_LABEL: Record<ZenRakeNavSteeringPresetId, string> =
 
 /** Default `layoutSeed` (dock label `layout #{n}`) — shipped retail baseline. */
 const DEFAULT_LAYOUT_SEED = 7;
+const SACRED_PRESET_CYCLE_INTERVAL_MS = 60_000;
 
 export function App(): ReactElement {
   const [rakePattern, setRakePattern] = useState<ClassicRakePatternKey>("rings");
@@ -152,6 +153,23 @@ export function App(): ReactElement {
       setIdolRetargetToken((n) => n + 1);
     }
   }, [autoRakeEnabled, ambientMode, idolUv]);
+
+  useEffect(() => {
+    if (!autoRakeEnabled || ambientMode !== "sacred") {
+      return;
+    }
+
+    const interval = window.setInterval(() => {
+      setSacredPreset((current) => {
+        const currentIndex = ZEN_SACRED_GEOMETRY_PRESET_ORDER.indexOf(current);
+        const nextIndex = currentIndex < 0 ? 0 : currentIndex + 1;
+        return ZEN_SACRED_GEOMETRY_PRESET_ORDER[nextIndex % ZEN_SACRED_GEOMETRY_PRESET_ORDER.length] ?? current;
+      });
+      setRakeRefreshToken((n) => n + 1);
+    }, SACRED_PRESET_CYCLE_INTERVAL_MS);
+
+    return () => window.clearInterval(interval);
+  }, [ambientMode, autoRakeEnabled]);
 
   useEffect(() => {
     if (idolRetargetToken <= 0 || !autoRakeEnabled || !idolUv || rakePilotTargetUv) {
@@ -676,7 +694,10 @@ export function App(): ReactElement {
                       className="pill"
                       disabled={!autoRakeEnabled}
                       data-active={sacredPreset === preset}
-                      onClick={() => setSacredPreset(preset)}
+                      onClick={() => {
+                        setSacredPreset(preset);
+                        setRakeRefreshToken((n) => n + 1);
+                      }}
                     >
                       {ZEN_SACRED_GEOMETRY_PRESET_LABELS[preset]}
                     </button>

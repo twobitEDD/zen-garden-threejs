@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>Kiku Rosette</title>
+  <desc>Chrysanthemum-inspired circular rosette for Japanese zen garden sacred geometry.</desc>
+  <g fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="70"/>
+    <circle cx="500" cy="500" r="120"/>
+    <circle cx="500" cy="500" r="260"/>
+    <circle cx="500" cy="240" r="100"/>
+    <circle cx="630" cy="275" r="100"/>
+    <circle cx="725" cy="370" r="100"/>
+    <circle cx="760" cy="500" r="100"/>
+    <circle cx="725" cy="630" r="100"/>
+    <circle cx="630" cy="725" r="100"/>
+    <circle cx="500" cy="760" r="100"/>
+    <circle cx="370" cy="725" r="100"/>
+    <circle cx="275" cy="630" r="100"/>
+    <circle cx="240" cy="500" r="100"/>
+    <circle cx="275" cy="370" r="100"/>
+    <circle cx="370" cy="275" r="100"/>
+  </g>
+</svg>

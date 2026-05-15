@@ -1,6 +1,6 @@
 {
   "name": "@twobitedd/zen-garden-threejs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Three.js / React Three Fiber zen garden building blocks (thin re-export layer over zen-sand-rake until split).",
   "license": "MIT",
   "type": "module",
@@ -17,7 +17,9 @@
   "files": [
     "dist",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "RELEASING.md"
   ],
   "sideEffects": false,
   "engines": {
@@ -44,8 +46,10 @@
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build",
     "check": "npm run build",
+  "demo:build": "npm run build --prefix demo",
     "demo:dev": "npm run dev --prefix demo",
-    "demo:install": "npm install --prefix demo"
+    "demo:install": "npm install --prefix demo",
+    "release:check": "npm run build && npm run build --prefix demo"
   },
   "dependencies": {
     "@twobitedd/zen-sand-rake": "file:../packages/zen-sand-rake"

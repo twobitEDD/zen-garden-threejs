@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>Seed of Life Zen</title>
+  <desc>Seven interlocking circles designed as a clean sacred geometry guide for zen garden rake paths.</desc>
+  <g fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="140"/>
+    <circle cx="640" cy="500" r="140"/>
+    <circle cx="570" cy="379" r="140"/>
+    <circle cx="430" cy="379" r="140"/>
+    <circle cx="360" cy="500" r="140"/>
+    <circle cx="430" cy="621" r="140"/>
+    <circle cx="570" cy="621" r="140"/>
+  </g>
+</svg>

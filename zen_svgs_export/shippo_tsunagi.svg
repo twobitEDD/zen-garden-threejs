@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>Shippo Tsunagi</title>
+  <desc>Japanese seven treasures pattern made from interlocking circles, suitable for zen garden overlays and rake guides.</desc>
+  <g fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="250" r="176"/>
+    <circle cx="500" cy="250" r="176"/>
+    <circle cx="750" cy="250" r="176"/>
+    <circle cx="375" cy="467" r="176"/>
+    <circle cx="625" cy="467" r="176"/>
+    <circle cx="250" cy="684" r="176"/>
+    <circle cx="500" cy="684" r="176"/>
+    <circle cx="750" cy="684" r="176"/>
+  </g>
+</svg>

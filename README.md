@@ -2,9 +2,21 @@
 
 Three.js and React Three Fiber building blocks for zen-garden style experiences (interactive sand disk, rake path debug overlays, and related types).
 
-## Status (v0)
+## Status (v0.2)
 
-This package currently **re-exports** selected APIs from [`@twobitedd/zen-sand-rake`](https://github.com/twobitEDD/ergo-games/tree/main/packages/zen-sand-rake) (see `src/index.ts`). The long-term plan is to **extract or relocate** implementation from `zen-sand-rake` into this repository while keeping stable imports for apps that switch from `@twobitedd/zen-sand-rake` to `@twobitedd/zen-garden-threejs`.
+This package **re-exports** selected APIs from [`@twobitedd/zen-sand-rake`](https://www.npmjs.com/package/@twobitedd/zen-sand-rake) (see `src/index.ts`), including stage props for **sacred garden** idle patterns (`rakeAmbientZenSacredGarden`), **rim** ambient orbit, and helpers such as `buildZenSacredGardenAmbientPathUv`.
+
+**Releases:** See [`CHANGELOG.md`](./CHANGELOG.md). To publish, read [`RELEASING.md`](./RELEASING.md) (publish `zen-sand-rake` first when bumping past 0.1.x).
+
+### Demo (in this repo)
+
+```bash
+npm install
+npm run demo:install
+npm run demo:dev
+```
+
+Or `npm run demo:build` for a production bundle of the demo app.
 
 ## Install
 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>Flower of Life Lite Zen</title>
+  <desc>A lighter flower of life arrangement suitable for raked sand pattern guides.</desc>
+  <g fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="90"/>
+    <circle cx="590" cy="500" r="90"/>
+    <circle cx="545" cy="422" r="90"/>
+    <circle cx="455" cy="422" r="90"/>
+    <circle cx="410" cy="500" r="90"/>
+    <circle cx="455" cy="578" r="90"/>
+    <circle cx="545" cy="578" r="90"/>
+    <circle cx="680" cy="500" r="90"/>
+    <circle cx="635" cy="422" r="90"/>
+    <circle cx="590" cy="344" r="90"/>
+    <circle cx="500" cy="344" r="90"/>
+    <circle cx="410" cy="344" r="90"/>
+    <circle cx="365" cy="422" r="90"/>
+    <circle cx="320" cy="500" r="90"/>
+    <circle cx="365" cy="578" r="90"/>
+    <circle cx="410" cy="656" r="90"/>
+    <circle cx="500" cy="656" r="90"/>
+    <circle cx="590" cy="656" r="90"/>
+    <circle cx="635" cy="578" r="90"/>
+  </g>
+</svg>

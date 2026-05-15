@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>Enso Mandala</title>
+  <desc>Japanese-inspired concentric sacred geometry with circular petal rings, designed for zen sand raking.</desc>
+  <g fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="70"/>
+    <circle cx="500" cy="500" r="150"/>
+    <circle cx="500" cy="500" r="230"/>
+    <circle cx="500" cy="500" r="310"/>
+    <circle cx="500" cy="190" r="90"/>
+    <circle cx="768" cy="345" r="90"/>
+    <circle cx="768" cy="655" r="90"/>
+    <circle cx="500" cy="810" r="90"/>
+    <circle cx="232" cy="655" r="90"/>
+    <circle cx="232" cy="345" r="90"/>
+    <circle cx="500" cy="350" r="60"/>
+    <circle cx="630" cy="425" r="60"/>
+    <circle cx="630" cy="575" r="60"/>
+    <circle cx="500" cy="650" r="60"/>
+    <circle cx="370" cy="575" r="60"/>
+    <circle cx="370" cy="425" r="60"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "collection": "zen-sacred-geometry",
+  "format": "svg",
+  "recommended_loader": "SVGLoader from three/examples/jsm/loaders/SVGLoader.js",
+  "files": [
+    {
+      "file": "seed_of_life_zen.svg",
+      "type": "svg"
+    },
+    {
+      "file": "flower_of_life_lite_zen.svg",
+      "type": "svg"
+    },
+    {
+      "file": "enso_mandala.svg",
+      "type": "svg"
+    },
+    {
+      "file": "shippo_tsunagi.svg",
+      "type": "svg"
+    },
+    {
+      "file": "seigaiha_circles.svg",
+      "type": "svg"
+    },
+    {
+      "file": "kiku_rosette.svg",
+      "type": "svg"
+    },
+    {
+      "file": "loadZenSvgExample.js",
+      "type": "js"
+    },
+    {
+      "file": "README.md",
+      "type": "md"
+    }
+  ]
+}
